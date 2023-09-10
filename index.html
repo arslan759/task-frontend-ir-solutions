@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Task</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start of header -->
+    <header>
+      <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="logo" />
+
+        <form action="">
+          <div class="search">
+            <img class="icon" src="images/search.svg" alt="search" />
+            <input
+              class="searchInput"
+              type="text"
+              placeholder="Search high-resolution images"
+            />
+            <img class="icon" src="images/camera.svg" alt="camera" />
+          </div>
+        </form>
+
+        <ul class="nav-list">
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Unsplash+</a></li>
+        </ul>
+
+        <div class="vertical-line"></div>
+
+        <!-- right section -->
+        <div class="nav-right-section">
+          <a href="#">Login</a>
+          <button class="submit-photo-btn">Submit a photo</button>
+          <img class="logo burger-logo" src="images/menu.svg" alt="menu" />
+        </div>
+
+        <img class="logo burger" src="images/menu.svg" alt="menu" />
+      </nav>
+
+      <!-- filters -->
+      <ul class="filters">
+        <li><a href="#">Editorial</a></li>
+        <li><a href="#">Unsplash</a></li>
+        <li><div class="vertical-line"></div></li>
+        <li>
+          <a href="#" class="featured"><span>Featured</span> Monochromatic</a>
+        </li>
+        <li><a href="#">Wallpapers</a></li>
+        <li><a href="#">3D Renders</a></li>
+        <li><a href="#">Nature</a></li>
+        <li><a href="#">Texture & Patterns</a></li>
+        <li><a href="#">Architectures & Interiors</a></li>
+        <li><a href="#">Film</a></li>
+        <li><a href="#">Street Photography</a></li>
+        <li><a href="#">Experimental</a></li>
+        <li><a href="#">Animals</a></li>
+        <li><a href="#">Fashion and Beauty</a></li>
+        <li><a href="#">Business & Work</a></li>
+        <li><a href="#">Food & Drink</a></li>
+        <li><a href="#">Spirituality</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Arts & Culture</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Interiors</a></li>
+        <div class="right-logo-container">
+          <img
+            class="icon"
+            src="images/right-arrow.svg"
+            alt="right-arrow-icon"
+          />
+        </div>
+      </ul>
+    </header>
+    <!-- end of header -->
+
+    <!-- start of hero section -->
+    <section class="hero-section">
+      <div>
+        <h1>Unsplash</h1>
+        <p>
+          The internet's source for visuals.<br />Powered by creators
+          everywhere.
+        </p>
+        <form action="">
+          <div class="search">
+            <img class="icon" src="images/search.svg" alt="search" />
+            <input
+              class="searchInput"
+              type="text"
+              placeholder="Search high-resolution images"
+            />
+            <img class="icon" src="images/camera.svg" alt="camera" />
+          </div>
+        </form>
+        <p>
+          <span>Trending:</span> flower, wallpapers, backgrounds, happy, love
+        </p>
+      </div>
+
+      <div class="hero-footer">
+        <span>Read more about the <a href="#">Unsplash Lisence</a></span>
+      </div>
+    </section>
+    <!-- end of hero section -->
+
+    <!-- start of photos section -->
+    <main>
+      <div class="photo-gallery">
+        <div class="row">
+          <div class="col" id="column1"></div>
+          <div class="col" id="column2"></div>
+          <div class="col" id="column3"></div>
+        </div>
+      </div>
+    </main>
+    <!-- end of photos section -->
+
+    <!-- Script to add placeholders for diff screens -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
